@@ -1,0 +1,32 @@
+.nav {
+    padding: .1em;
+    font-size: 18px;
+    
+}
+
+.name {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.centerIcons {
+    
+    padding-left: 25em; 
+
+}
+
+h1{
+    text-align: left;
+}
+
+
+.alignLeft{
+    text-align: left;
+}
+
+footer {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
