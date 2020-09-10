@@ -1,3 +1,5 @@
+/* About me page */
+    /* Nav styling  */
 .nav {
     padding: .1em;
     font-size: 18px;
@@ -9,22 +11,28 @@
     font-weight: bold;
 
 }
-
+    /* links to social media */
 .centerIcons {
     
     padding-left: 25em; 
 
 }
 
+    /* Main styling */
 h1{
     text-align: left;
 }
 
+main {
+    background-color: whitesmoke;
+    height: 35em;
+}
 
 .alignLeft{
     text-align: left;
 }
 
+    /* fixed footer */
 footer {
     position: fixed;
     left:0;
@@ -34,6 +42,9 @@ footer {
     text-align: center;
 }
 
+/* About me page ends here */
+/*Contact Page begins here  */
+    
 .messageBox {
     height: 10em;
     position: relative;
@@ -41,4 +52,8 @@ footer {
 }
 
 
+.backgroundColor { 
+    background-color: whitesmoke;
+
+}
 
