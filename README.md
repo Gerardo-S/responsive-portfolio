@@ -6,9 +6,9 @@ My personal portfolio developed using Bootstrap elements. Layout was developed u
 
 Screen shots of responsive screen have been provided in the PortfolioAssets folder for the following window sizes. 
 
--400
--768
--992
+-400px
+-768px
+-1372px
 
 
 
