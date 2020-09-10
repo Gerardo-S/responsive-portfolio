@@ -32,4 +32,13 @@ footer {
     height: 2em;
     width: 100%;
     text-align: center;
+}
+
+.messageBox {
+    height: 10em;
+    position: relative;
+    
+}
+
+
 
