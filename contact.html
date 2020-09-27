@@ -8,38 +8,22 @@
     <!-- Bootstrap External CSS Link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./PortfolioAssets/style.css">
+    <link rel="stylesheet" href="PortfolioAssets\css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      
 </head>
 
 <body class= "bg-light ">
 
-    <!-- Nav bar starts here -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <!-- Nav bar starts here -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <a class="navbar-brand name text-white">Gerardo Solis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-         <!-- Icon links will revisit this one to update links as Icons-->
-         <div class="collapse navbar-collapse centerIcons" >
-            
-            <ul class="nav">
-
-                <li>
-                    <a class="nav-link active text-light" href="https://github.com/" target="_blank">GitHub |</a>
-                </li>
-                <li>
-                    <a class="nav-link text-light" href="https://www.linkedin.com/in/gerardo-a-solis/" target="_blank">LinkedIn |</a>
-                </li>
-                <li>
-                    <a class="nav-link text-light" href="https://stackoverflow.com/users/14185229/gerardo-solis" target="_blank">StackOverflow |</a>
-                </li>
-
-            </ul> 
-
-        </div> 
+        <!-- Icon links will revisit this one to update links as Icons-->
 
         <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
 
@@ -59,7 +43,7 @@
 
         </div>
 
-        
+
     </nav>
     <!-- Nav bar ends here -->
 
@@ -109,15 +93,20 @@
     </div>
 
         
-    <footer class="bg-dark p-1">
+    <div class="row ">
+        <footer class="bg-dark fixed-bottom col-lg-12 iconPosition">
+            <!-- <a class="active text-light" href="https://github.com/" target="_blank">GitHub |</a> -->
+            <a href="https://github.com/" class="active text-light fa fa-github largeFont" target="_blank"><span> |</span></a>
 
-         <div class="text-secondary">
+            <!-- <a class=" text-light" href="https://www.linkedin.com/in/gerardo-a-solis/" target="_blank">LinkedIn |</a> -->
+            <a href="https://www.linkedin.com/in/gerardo-a-solis/" class="active text=light fa fa-linkedin" target="_blank"><span class ="bg-dark"> |</span></a>
 
-            <p class="text-center">Copyright</p>     
-                
-        </div>    
-               
-    </footer>
+            <a href="https://stackoverflow.com/users/14185229/gerardo-solis" class="active text=light fa fa-stack-overflow" target="_blank"> |</a>
+            
+            <!-- <a class="text-light" href="https://stackoverflow.com/users/14185229/gerardo-solis"
+                target="_blank">StackOverflow |</a> -->
+        </footer>
+    </div>
 
     
 

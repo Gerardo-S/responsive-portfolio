@@ -8,7 +8,8 @@
     <!-- Bootstrap External CSS Link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./PortfolioAssets/style.css">
+    <link rel="stylesheet" href="PortfolioAssets\css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -23,23 +24,6 @@
         </button>
 
         <!-- Icon links will revisit this one to update links as Icons-->
-        <div class="collapse navbar-collapse centerIcons" >
-            
-            <ul class="nav">
-
-                <li>
-                    <a class="nav-link active text-light" href="https://github.com/" target="_blank">GitHub |</a>
-                </li>
-                <li>
-                    <a class="nav-link text-light" href="https://www.linkedin.com/in/gerardo-a-solis/" target="_blank">LinkedIn |</a>
-                </li>
-                <li>
-                    <a class="nav-link text-light" href="https://stackoverflow.com/users/14185229/gerardo-solis" target="_blank">StackOverflow |</a>
-                </li>
-
-            </ul> 
-
-        </div> 
 
         <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
 
@@ -75,7 +59,7 @@
         <!-- Bio info starts here -->
         <main class="row justify-content-center pl-5 pt-4 backgroundColor">
             <div class="col-md-3">
-                <img src="PortfolioAssets/profilePic.jpg" alt="Gerardo's Profile Picture"
+                <img src="PortfolioAssets\images\profilePic.jpg" alt="Gerardo's Profile Picture"
                     class="img-fluid img-thumbnail" width="250" height="250">
                 <br>
                 <br>
@@ -84,7 +68,7 @@
 
             </div>
 
-            <div class="col-md-6">
+            <section class="col-md-6">
                 <p>
                     I received my bachelors degree from California State University of Long Beach were I majored in
                     Mechanical Engineering. I joined the aerospace industry in 2017 as a Quality Engineer for Roller
@@ -100,31 +84,26 @@
                     I currently live in San Diego CA, where I am furthering my education by enhancing my technical
                     knowledge in web development. I aspire to be an entrepreneur using web development to materialize my
                     project ideas. You can find me outdoors hiking or playing a few games of pickup basketball.
-                    
+
                 </p>
-            </div>
+            </section>
         </main>
-
-
-
-
-
     </div>
 
+    <div class="row ">
+        <footer class="bg-dark fixed-bottom col-lg-12 iconPosition">
+            <!-- <a class="active text-light" href="https://github.com/" target="_blank">GitHub |</a> -->
+            <a href="https://github.com/" class="active text-light fa fa-github largeFont" target="_blank"><span> |</span></a>
 
-    <footer class="bg-dark p-1">
+            <!-- <a class=" text-light" href="https://www.linkedin.com/in/gerardo-a-solis/" target="_blank">LinkedIn |</a> -->
+            <a href="https://www.linkedin.com/in/gerardo-a-solis/" class="active text=light fa fa-linkedin" target="_blank"><span class ="bg-dark"> |</span></a>
 
-        <div class="text-secondary">
-
-            <p class="text-center">Copyright</p>
-
-        </div>
-
-    </footer>
-
-
-
-
+            <a href="https://stackoverflow.com/users/14185229/gerardo-solis" class="active text=light fa fa-stack-overflow" target="_blank"> |</a>
+            
+            <!-- <a class="text-light" href="https://stackoverflow.com/users/14185229/gerardo-solis"
+                target="_blank">StackOverflow |</a> -->
+        </footer>
+    </div>
 
     <!-- Bootstrap Java External Link-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
