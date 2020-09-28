@@ -19,6 +19,9 @@ Screen shots of responsive screen have been provided in the PortfolioAssets fold
 ### Screen shot at 1372px
 <img src="PortfolioAssets\images\1372-portfolio.PNG" alt="Portfolio page at 1372px">
 
+### Link to Deployed page
+<a href="https://gerardo-s.github.io/responsive-portfolio/">;
+
 
 
 
