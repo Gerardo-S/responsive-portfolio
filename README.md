@@ -11,13 +11,13 @@ Screen shots of responsive screen have been provided in the PortfolioAssets fold
 -1372px
 
 ### Screen shot at 400px
-<img href="PortfolioAssets\images\400-contact.PNG" alt="Contact page at 400px">
+<img src="PortfolioAssets\images\400-contact.PNG" alt="Contact page at 400px">
 
 ### Screen shot at 768px
-<img href="PortfolioAssets\images\768-index.PNG" alt="About page at 768px">
+<img src="PortfolioAssets\images\768-index.PNG" alt="About page at 768px">
 
 ### Screen shot at 1372px
-<img href="PortfolioAssets\images\1372-portfolio.PNG" alt="Portfolio page at 1372px">
+<img src="PortfolioAssets\images\1372-portfolio.PNG" alt="Portfolio page at 1372px">
 
 
 
